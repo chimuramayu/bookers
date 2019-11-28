@@ -1,6 +1,18 @@
 <h2 class="headline">Editing Book</h2>
 
 <%= form_for(@book) do |f| %>
+
+<% if @book.errors.any? %>
+      <div class="error-message-box">
+         <p class="error-message"><%= @book.errors.count %>errors prohibited this book from being saved:</p>
+         <ul class="error-detail">
+          <% @book.errors.full_messages.each do |message| %>
+            <li><%= message %></li>
+          <% end %>
+        </ul>
+      </div>
+    <% end %>
+
 	<p class="form-title">Title</p>
 	<%= f.text_field :title %>
 	<p class="form-body">body</p>

@@ -78,3 +78,22 @@ td {
   margin:0 0 30px 40px;
   color: #008000;
 }
+
+.error-message-box {
+  width: 400px;
+  border: 2px solid #ff0000;
+  margin: 20px 0;
+}
+
+.error-message {
+  color: #ffffff;
+  background-color: #cc0000;
+  padding: 5px 20px;
+  font-size: 11px;
+  font-weight: 700;
+}
+.error-detail {
+  padding: 30px 0 30px 60px;
+  font-size: 11px;
+}
+
