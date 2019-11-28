@@ -13,3 +13,68 @@
  *= require_tree .
  *= require_self
  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #202020;
+  font-size: 14px;
+}
+body {
+  margin: 30px;
+}
+.link {
+  color: #606060;
+}
+.link:hover {
+  background-color: #202020;
+  color: #fff;
+}
+
+.headline {
+  font-size: 25px;
+  font-weight: 700;
+}
+table {
+  margin: 20px 0;
+}
+th.table-title {
+  width: 200px;
+}
+th.table-body {
+  width: 400px;
+}
+td {
+  padding: 0 3px;
+}
+.new-book {
+  font-size: 20px;
+}
+.form-title, .form-body{
+  margin-top: 10px;
+}
+.submit {
+  margin: 10px 0;
+}
+
+/*home-index.html.erb*/
+.home-text {
+  line-height: 50px;
+  margin : 20px 0;
+}
+.home-box {
+  margin-left: 40px;
+}
+
+
+/*books-show.html.erb*/
+.detail-box {
+  margin:0 0 30px 40px;
+}
+.detail {
+  margin-bottom: 30px;
+}
+.flash {
+  margin:0 0 30px 40px;
+  color: #008000;
+}
