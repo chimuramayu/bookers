@@ -18,13 +18,13 @@
   padding: 0;
   box-sizing: border-box;
   color: #202020;
-  font-size: 14px;
 }
 body {
   margin: 30px;
 }
 .link {
   color: #606060;
+  font-size: 14px;
 }
 .link:hover {
   background-color: #202020;
@@ -37,6 +37,7 @@ body {
 }
 table {
   margin: 20px 0;
+  font-size: 14px;
 }
 th.table-title {
   width: 200px;
@@ -52,6 +53,7 @@ td {
 }
 .form-title, .form-body{
   margin-top: 10px;
+  font-size: 14px;
 }
 .submit {
   margin: 10px 0;
@@ -61,22 +63,10 @@ td {
 .home-text {
   line-height: 50px;
   margin : 20px 0;
+  font-size: 14px;
 }
 .home-box {
   margin-left: 40px;
-}
-
-
-/*books-show.html.erb*/
-.detail-box {
-  margin:0 0 30px 40px;
-}
-.detail {
-  margin-bottom: 30px;
-}
-.flash {
-  margin:0 0 30px 40px;
-  color: #008000;
 }
 
 .error-message-box {
@@ -84,7 +74,6 @@ td {
   border: 2px solid #ff0000;
   margin: 20px 0;
 }
-
 .error-message {
   color: #ffffff;
   background-color: #cc0000;
@@ -95,5 +84,20 @@ td {
 .error-detail {
   padding: 30px 0 30px 60px;
   font-size: 11px;
+}
+
+
+/*books-show.html.erb*/
+.detail-box {
+  margin:0 0 30px 40px;
+}
+.detail {
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+.flash {
+  margin:0 0 30px 40px;
+  color: #008000;
+  font-size: 14px;
 }
 
